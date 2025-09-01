@@ -1,0 +1,1022 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta name="x-poe-datastore-behavior" content="local_only"><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خطة التسويق - Ma Moda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Cairo', sans-serif; }
+        .slide { transition: all 0.3s ease; }
+        .slide-enter { transform: translateX(100px); opacity: 0; }
+        .slide-active { transform: translateX(0); opacity: 1; }
+        .progress-bar { transition: width 0.3s ease; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    </style>
+<script src="https://puc.poecdn.net/authenticated_preview_page/syncedState.bd4eeeb8e8e02052ee92.js"></script></head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    
+    <!-- Header -->
+    <header class="gradient-bg text-white py-6 px-4">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-reverse space-x-4">
+                <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                    <i data-lucide="presentation" class="w-6 h-6 text-purple-600"></i>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold">خطة التسويق والنجاح</h1>
+                    <p class="text-purple-100">شركة Ma Moda للمفروشات</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-reverse space-x-4">
+                <button id="prevBtn" class="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
+                    <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                </button>
+                <span id="slideCounter" class="text-sm font-medium">1 / 10</span>
+                <button id="nextBtn" class="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
+                    <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Progress Bar -->
+        <div class="max-w-6xl mx-auto mt-4">
+            <div class="w-full bg-white/20 rounded-full h-2">
+                <div id="progressBar" class="progress-bar bg-white h-2 rounded-full" style="width: 10%"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        
+        <!-- Slide 1: مقدمة -->
+        <div class="slide slide-active" id="slide-1">
+            <div class="text-center mb-12">
+                <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="target" class="w-10 h-10 text-white"></i>
+                </div>
+                <h2 class="text-4xl font-bold text-gray-800 dark:text-white mb-4">استراتيجية شاملة للنمو</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">خطة متكاملة لتطوير حضور شركة Ma Moda الرقمي وزيادة المبيعات من خلال استراتيجية تسويقية مدروسة</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="card-hover bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="trending-up" class="w-6 h-6 text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">زيادة المبيعات</h3>
+                    <p class="text-gray-600 dark:text-gray-300">استراتيجية محكمة لتحقيق نمو مستدام في المبيعات</p>
+                </div>
+                
+                <div class="card-hover bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="users" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">بناء الجمهور</h3>
+                    <p class="text-gray-600 dark:text-gray-300">تطوير قاعدة عملاء مخلصين عبر منصات متعددة</p>
+                </div>
+                
+                <div class="card-hover bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="globe" class="w-6 h-6 text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">التوسع الدولي</h3>
+                    <p class="text-gray-600 dark:text-gray-300">تطوير حضور شركة Ma Moda الرقمي في الخليج واوروبا وبناء براند مستدام LTV</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: المرحلة الأولى - التأسيس -->
+        <div class="slide hidden" id="slide-2">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">المرحلة الأولى: التأسيس والهيكلة</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4 gap-4    ">
+                        <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center mr-3">
+                            <i data-lucide="calendar" class="w-5 h-5 text-orange-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">المدة الزمنية</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 text-lg">أسبوعان لبناء أساس قوي</p>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6  rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4 gap-4">
+                        <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-3">
+                            <i data-lucide="edit-3" class="w-5 h-5 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white ">المحتوى اليومي</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 text-lg">منشور يومياً + ريلز كل يومين </p>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-6 rounded-xl border-r-4 border-yellow-400">
+                <div class="flex items-start">
+                    <i data-lucide="alert-triangle" class="w-6 h-6 text-yellow-600 mr-3 mt-1"></i>
+                    <div>
+                        <h4 class="font-semibold text-gray-800 dark:text-white mb-2">نقطة مهمة:</h4>
+                        <p class="text-gray-700 dark:text-gray-300">لا يمكن بدء الحملات الإعلانية بدون محتوى قوي. هذه المرحلة ضرورية لبناء المصداقية وتجنب اعتبار الشركة " قديمة وضعيفة" سوف نعمل على بناء براند عالمي".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: استراتيجية المحتوى -->
+        <div class="slide hidden" id="slide-3">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">استراتيجية المحتوى</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold flex gap-2 text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="image" class="w-6 h-6 text-blue-600 mr-3"></i>
+                        المنشورات العادية
+                    </h3>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li class="flex gap-2 items-center"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>صور منتجات عالية الجودة</li>
+                        <li class="flex gap-2 items-center"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>تنوع بين المتوسط والاحترافي</li>
+                        <li class="flex gap-2 items-center"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>وصف جذاب ومحسّن</li>
+                        <li class="flex gap-2 items-center"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>استخدام الهاشتاجات المناسبة</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold  flex gap-2 text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="video" class="w-6 h-6 text-red-600 mr-3"></i>
+                        الريلز (الأولوية)
+                    </h3>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li class="flex  gap-2 items-center"><i data-lucide="star" class="w-4 h-4 text-yellow-500 mr-2"></i>انتشار أقوى من الصور</li>
+                        <li class="flex  gap-2 items-center"><i data-lucide="star" class="w-4 h-4 text-yellow-500 mr-2"></i>لقطات من داخل الصالة</li>
+                        <li class="flex  gap-2 items-center"><i data-lucide="star" class="w-4 h-4 text-yellow-500 mr-2"></i>شخص يتحدث عن المنتجات</li>
+                        <li class="flex  gap-2 items-center"><i data-lucide="star" class="w-4 h-4 text-yellow-500 mr-2"></i>سيناريو مدروس ومكتوب</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-8 bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 p-6 rounded-xl">
+                <h4 class="font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                    <i data-lucide="clock" class="w-5 h-5 text-purple-600 mr-2"></i>
+                    جدولة النشر الأولية
+                </h4>
+                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg">
+                        <strong class="text-green-600">أول 10 أيام:</strong>
+                        <p class="text-gray-600 dark:text-gray-300">منشور يومي لتحسين مظهر الصفحة</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg">
+                        <strong class="text-blue-600">بعد ذلك:</strong>
+                        <p class="text-gray-600 dark:text-gray-300">منشور كل يومين للحفاظ على التفاعل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: الحملات الإعلانية -->
+        <div class="slide hidden" id="slide-4">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">استراتيجية الحملات الإعلانية</h2>
+            
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="dollar-sign" class="w-8 h-8 text-green-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-2">الميزانية الأسبوعية</h3>
+                    <p class="text-2xl font-bold text-green-600">2000+ ليرة</p>
+                    <p class="text-sm text-gray-500">حد أدنى للحصول على نتائج</p>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="clock" class="w-8 h-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-2">مدة الحملة</h3>
+                    <p class="text-2xl font-bold text-blue-600">أسبوع واحد</p>
+                    <p class="text-sm text-gray-500">لكل حملة إعلانية</p>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="video" class="w-8 h-8 text-purple-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-2">نوع المحتوى</h3>
+                    <p class="text-2xl font-bold text-purple-600">فيديو</p>
+                    <p class="text-sm text-gray-500">أولوية عن الصورة</p>
+                </div>
+            </div>
+            
+            <div class="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border-r-4 border-red-400">
+                <h4 class="font-semibold text-red-800 dark:text-red-300 mb-3 flex items-center">
+                    <i data-lucide="alert-circle" class="w-5 h-5 mr-2"></i>
+                    شرط أساسي مهم
+                </h4>
+                <p class="text-red-700 dark:text-red-300">لا يمكن بدء الحملات الإعلانية إلا بعد إكمال مرحلة التأسيس (أسبوعين). الحملات الإعلانية ضرورية لتحقيق المبيعات المطلوبة.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: تحسينات الصفحة -->
+        <div class="slide hidden" id="slide-5">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">تحسينات الصفحة الأساسية</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="space-y-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                        <div class="flex items-center mb-2 gap-3">
+                            <div class="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-3">
+                                <span class="text-blue-600 font-bold text-sm">1</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 dark:text-white ">تحسين موقع الشعار</h3>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm">نقل الشعار إلى المكان المناسب للحصول على أفضل ظهور</p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                        <div class="flex items-center mb-2 gap-3">
+                            <div class="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mr-3">
+                                <span class="text-green-600 font-bold text-sm">2</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 dark:text-white">تطوير الشعار</h3>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm">تحسين الألوان، إزالة الأبيض، مسح الكونسيبت والظلال</p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                        <div class="flex items-center mb-2 gap-3">
+                            <div class="w-8 h-8 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mr-3">
+                                <span class="text-purple-600 font-bold text-sm">3</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 dark:text-white">تحسين الوصف</h3>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm">إعادة كتابة وصف المنشورات بشكل أكثر جاذبية واحترافية</p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                        <div class="flex items-center mb-2 gap-3">
+                            <div class="w-8 h-8 bg-orange-100 dark:bg-orange-900 rounded-full flex items-center justify-center mr-3">
+                                <span class="text-orange-600 font-bold text-sm">4</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 dark:text-white">تخطيط الصفحة</h3>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm">تحسين Layout الصفحة وتنسيقها لتجربة أفضل</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold gap-3 text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="shield-check" class="w-6 h-6 text-blue-600 mr-3"></i>
+                        خطوة إضافية مهمة
+                    </h3>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg mb-4">
+                        <h4 class="font-semibold text-gray-800 dark:text-white mb-2">5. توثيق الصفحة</h4>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm">الحصول على العلامة الزرقاء لزيادة المصداقية والثقة</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-green-100 to-blue-100 dark:from-green-900/30 dark:to-blue-900/30 p-4 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="camera" class="w-5 h-5 text-green-600 mr-2"></i>
+                            <span class="text-sm font-medium text-gray-700 dark:text-gray-300">خطوة مهمة: استخدام شخص حقيقي للتصوير يزيد المصداقية وهذا الشخص سيكون ذو شخصية ولابس طقم وتصوير وكلام High Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: المنصات والمواقع -->
+        <div class="slide hidden" id="slide-6">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">التواجد الرقمي الشامل</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- منصات التواصل -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-6 flex items-center">
+                        <i data-lucide="smartphone" class="w-6 h-6 text-blue-600 mr-3"></i>
+                        منصات التواصل الاجتماعي
+                    </h3>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center p-3 bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-900/30 rounded-lg">
+                            <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center mr-3">
+                                <i data-lucide="facebook" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="font-medium text-gray-800 dark:text-white">Facebook</span>
+                        </div>
+                        
+                        <div class="flex items-center p-3 bg-gradient-to-r from-pink-50 to-red-100 dark:from-pink-900/20 dark:to-red-900/30 rounded-lg">
+                            <div class="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center mr-3">
+                                <i data-lucide="instagram" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="font-medium text-gray-800 dark:text-white">Instagram</span>
+                        </div>
+                        
+                        <div class="flex items-center p-3 bg-gradient-to-r from-yellow-50 to-orange-100 dark:from-yellow-900/20 dark:to-orange-900/30 rounded-lg">
+                            <div class="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center mr-3">
+                                <i data-lucide="zap" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="font-medium text-gray-800 dark:text-white">Snapchat</span>
+                        </div>
+                        
+                        <div class="flex items-center p-3 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-lg">
+                            <div class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center mr-3">
+                                <i data-lucide="music" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="font-medium text-gray-800 dark:text-white">TikTok</span>
+                        </div>
+                        
+                        <div class="flex items-center p-3 bg-gradient-to-r from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-900/30 rounded-lg">
+                            <div class="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center mr-3">
+                                <i data-lucide="youtube" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="font-medium text-gray-800 dark:text-white">YouTube</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- الموقع الإلكتروني -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-6 flex items-center">
+                        <i data-lucide="globe" class="w-6 h-6 text-green-600 mr-3"></i>
+                        الموقع الإلكتروني
+                    </h3>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 dark:text-green-300 mb-2">أهمية تسويقية عالية</h4>
+                            <p class="text-green-700 dark:text-green-400 text-sm">معظم الشركات تعتمد على موقع ويب كنقطة مرجعية للعملاء</p>
+                        </div>
+                        
+                        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-2">عرض المنتجات</h4>
+                            <p class="text-blue-700 dark:text-blue-400 text-sm">منصة لعرض جميع منتجات المفروشات بشكل منظم</p>
+                        </div>
+                        
+                        <div class="bg-gradient-to-r from-purple-50 to-violet-50 dark:from-purple-900/20 dark:to-violet-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-purple-800 dark:text-purple-300 mb-2">مصداقية العلامة</h4>
+                            <p class="text-purple-700 dark:text-purple-400 text-sm">يضفي طابع احترافي ويزيد ثقة العملاء في الشركة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 bg-yellow-50 dark:bg-yellow-900/20 p-6 rounded-xl border-r-4 border-yellow-400">
+                <div class="flex items-start">
+                    <i data-lucide="lightbulb" class="w-6 h-6 text-yellow-600 mr-3 mt-1"></i>
+                    <div>
+                        <h4 class="font-semibold text-gray-800 dark:text-white mb-2">استراتيجية التدرج:</h4>
+                        <p class="text-gray-700 dark:text-gray-300">لا تكشف للعميل جميع المنصات مرة واحدة. قدم له الفكرة تدريجياً لتجنب الإرباك وضمان الموافقة على الخطة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: استراتيجية التوسع الدولي -->
+        <div class="slide hidden" id="slide-7">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">استراتيجية التوسع الدولي</h2>
+            
+            <div class="mb-8">
+                <div class="bg-gradient-to-r from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-900/30 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold text-red-800 dark:text-red-300 mb-4 flex items-center">
+                        <i data-lucide="target" class="w-6 h-6 mr-3"></i>
+                        المرحلة الأولى: تركيا (الأولوية)
+                    </h3>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg">
+                            <h4 class="font-semibold text-gray-800 dark:text-white mb-2">لماذا تركيا؟</h4>
+                            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+                                <li>• سوق كبير للمفروشات</li>
+                                <li>• قرب جغرافي وثقافي</li>
+                                <li>• إمكانية تحقيق مبيعات سريعة</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg">
+                            <h4 class="font-semibold text-gray-800 dark:text-white mb-2">الخطة:</h4>
+                            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+                                <li>• صفحة باللغة التركية</li>
+                                <li>• اختيار منتج رابح للإعلان</li>
+                                <li>• حملات مستهدفة للسوق التركي</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="flag" class="w-6 h-6 text-green-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-3">الدول العربية</h3>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+                        <li>• السعودية</li>
+                        <li>• الإمارات</li>
+                        <li>• قطر</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="map" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-3">أوروبا</h3>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+                        <li>• ألمانيا</li>
+                        <li>• فرنسا</li>
+                        <li>• هولندا</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="globe-2" class="w-6 h-6 text-purple-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-3">اللغات</h3>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+                        <li>• التركية (أولاً)</li>
+                        <li>• العربية</li>
+                        <li>• الإنجليزية</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-8 bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border-r-4 border-blue-400">
+                <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-3 flex items-center">
+                    <i data-lucide="trending-up" class="w-5 h-5 mr-2"></i>
+                    استراتيجية التدرج
+                </h4>
+                <p class="text-blue-700 dark:text-blue-300">البدء بتركيا لتحقيق نتائج سريعة، ثم التوسع للأسواق العربية والأوروبية بعد نمو وتطوير الصفحات الأساسية.</p>
+            </div>
+        </div>
+
+        <!-- Slide 8: اختيار المنتج الرابح -->
+        <div class="slide hidden" id="slide-8">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">استراتيجية المنتج الرابح</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="search" class="w-6 h-6 text-blue-600 mr-3"></i>
+                        معايير الاختيار
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">منتج عالي الجودة ومطلوب</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">هامش ربح مناسب</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">سهولة في الشحن والتسليم</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">مناسب للسوق التركي</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="zap" class="w-6 h-6 text-yellow-600 mr-3"></i>
+                        التركيز الاستراتيجي
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-yellow-800 dark:text-yellow-300 mb-2">منتج واحد فقط</h4>
+                            <p class="text-yellow-700 dark:text-yellow-400 text-sm">التركيز على منتج واحد يحقق نتائج أفضل من تشتيت الجهود</p>
+                        </div>
+                        
+                        <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-2">حملة مخصصة</h4>
+                            <p class="text-blue-700 dark:text-blue-400 text-sm">إنشاء حملة إعلانية كاملة مصممة خصيصاً لهذا المنتج</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 p-6 rounded-xl">
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                    <i data-lucide="target" class="w-6 h-6 text-green-600 mr-3"></i>
+                    الهدف من هذه الاستراتيجية
+                </h3>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i data-lucide="trending-up" class="w-6 h-6 text-green-600"></i>
+                        </div>
+                        <h4 class="font-semibold text-gray-800 dark:text-white text-sm">اختبار السوق</h4>
+                        <p class="text-gray-600 dark:text-gray-300 text-xs">قياس استجابة السوق التركي</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i data-lucide="dollar-sign" class="w-6 h-6 text-blue-600"></i>
+                        </div>
+                        <h4 class="font-semibold text-gray-800 dark:text-white text-sm">تحقيق أرباح</h4>
+                        <p class="text-gray-600 dark:text-gray-300 text-xs">إثبات جدوى الاستثمار</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i data-lucide="repeat" class="w-6 h-6 text-purple-600"></i>
+                        </div>
+                        <h4 class="font-semibold text-gray-800 dark:text-white text-sm">التوسع</h4>
+                        <p class="text-gray-600 dark:text-gray-300 text-xs">تطبيق النجاح على منتجات أخرى</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: الجدول الزمني -->
+        <div class="slide hidden" id="slide-9">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">الجدول الزمني للتنفيذ</h2>
+            
+            <div class="space-y-6">
+                <!-- الأسبوع الأول -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-blue-600 font-bold">1</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">الأسبوع الأول: التأسيس الأولي</h3>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-2">تحسين الصفحة</h4>
+                            <ul class="text-sm text-blue-700 dark:text-blue-400 space-y-1">
+                                <li>• تطوير الشعار</li>
+                                <li>• تحسين التخطيط</li>
+                                <li>• تحسين الوصف</li>
+                            </ul>
+                        </div>
+                        <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 dark:text-green-300 mb-2">المحتوى</h4>
+                            <ul class="text-sm text-green-700 dark:text-green-400 space-y-1">
+                                <li>• منشور يومي</li>
+                                <li>• ريلز متنوعة</li>
+                                <li>• بناء التفاعل</li>
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-purple-800 dark:text-purple-300 mb-2">التحضير</h4>
+                            <ul class="text-sm text-purple-700 dark:text-purple-400 space-y-1">
+                                <li>• إنشاء الموقع</li>
+                                <li>• تحضير المنصات</li>
+                                <li>• اختيار المنتج</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- الأسبوع الثاني -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-green-600 font-bold">2</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">الأسبوع الثاني: إكمال التأسيس</h3>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 dark:text-green-300 mb-2">المحتوى المتقدم</h4>
+                            <ul class="text-sm text-green-700 dark:text-green-400 space-y-1">
+                                <li>• محتوى احترافي</li>
+                                <li>• تفاعل أكبر</li>
+                                <li>• بناء المصداقية</li>
+                            </ul>
+                        </div>
+                        <div class="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-orange-800 dark:text-orange-300 mb-2">التوثيق</h4>
+                            <ul class="text-sm text-orange-700 dark:text-orange-400 space-y-1">
+                                <li>• طلب التوثيق</li>
+                                <li>• تحسين المصداقية</li>
+                                <li>• إعداد الحملات</li>
+                            </ul>
+                        </div>
+                        <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg">
+                            <h4 class="font-semibold text-red-800 dark:text-red-300 mb-2">التحضير للإعلان</h4>
+                            <ul class="text-sm text-red-700 dark:text-red-400 space-y-1">
+                                <li>• إنتاج الفيديو</li>
+                                <li>• كتابة السيناريو</li>
+                                <li>• تحديد الميزانية</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- الأسبوع الثالث -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-red-100 dark:bg-red-900 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-red-600 font-bold">3</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">الأسبوع الثالث: إطلاق الحملات</h3>
+                    </div>
+                    <div class="bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 p-4 rounded-lg">
+                        <div class="flex items-center justify-center">
+                            <i data-lucide="rocket" class="w-8 h-8 text-red-600 mr-3"></i>
+                            <span class="text-lg font-semibold text-red-800 dark:text-red-300">بدء الحملات الإعلانية الأولى في تركيا</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: خلاصة وأهداف -->
+        <div class="slide hidden" id="slide-10">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8 text-center">خلاصة الخطة والأهداف</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="target" class="w-6 h-6 text-green-600 mr-3"></i>
+                        الأهداف الرئيسية
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">زيادة المبيعات بشكل مستدام</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="users" class="w-5 h-5 text-blue-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">بناء قاعدة عملاء مخلصين</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="globe" class="w-5 h-5 text-purple-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">التوسع في الأسواق الدولية</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="shield" class="w-5 h-5 text-orange-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">بناء سمعة قوية للعلامة التجارية</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                        <i data-lucide="key" class="w-6 h-6 text-blue-600 mr-3"></i>
+                        عوامل النجاح
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i data-lucide="clock" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">الالتزام بالجدول الزمني</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="dollar-sign" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">الاستثمار في الإعلانات</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="video" class="w-5 h-5 text-red-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">التركيز على الفيديو</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="zap" class="w-5 h-5 text-yellow-500 mr-3 mt-0.5"></i>
+                            <span class="text-gray-600 dark:text-gray-300">المثابرة والتطوير المستمر</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <div class="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 p-8 rounded-xl">
+                    <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="heart" class="w-10 h-10 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">نحو نجاح مستدام لـ Ma Moda</h3>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                        مع التنفيذ السليم لهذه الخطة، ستحقق شركة Ma Moda نمواً ملحوظاً في المبيعات وحضوراً قوياً في الأسواق المستهدفة
+                    </p>
+                    
+                    <div class="mt-6 grid grid-cols-3 gap-4 max-w-md mx-auto">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-purple-600">3</div>
+                            <div class="text-sm text-gray-500">أسابيع للإطلاق</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600">5+</div>
+                            <div class="text-sm text-gray-500">منصات تواصل</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600">3</div>
+                            <div class="text-sm text-gray-500">أسواق مستهدفة</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 11: الخطط المتقدمة -->
+<div class="slide hidden" id="slide-11">
+    <style>
+        .glass-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .glass-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            z-index: -1;
+        }
+        
+        .hidden-content {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            right: 10%;
+            bottom: 20%;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(30px);
+            border-radius: 20px;
+            padding: 20px;
+            opacity: 0.3;
+            pointer-events: none;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.5);
+            z-index: -2;
+            transform: scale(0.95);
+        }
+        
+        .teaser-item {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .teaser-item:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
+        }
+        
+        .blur-text {
+            filter: blur(2px);
+            opacity: 0.6;
+        }
+        
+        .mystery-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+        }
+    </style>
+    
+    <div class="mystery-gradient min-h-screen relative -m-8 p-8">
+        <!-- خلفية مخفية للخطوات -->
+        <div class="hidden-content">
+            <h4>استراتيجيات النمو المتقدمة</h4>
+            <ul>
+                <li>• تحليل البيانات المتقدم</li>
+                <li>• أتمتة التسويق</li>
+                <li>• استراتيجيات الذكاء الاصطناعي</li>
+                <li>• خطط التوسع الإقليمي</li>
+                <li>• شراكات استراتيجية</li>
+                <li>• برامج الولاء المتقدمة</li>
+                <li>• تقنيات التسويق المؤثر</li>
+                <li>• استراتيجيات المحتوى المرئي</li>
+            </ul>
+        </div>
+        
+        <div class="text-center mb-12 relative z-10">
+            <div class="w-24 h-24 bg-white/20 backdrop-filter backdrop-blur-lg rounded-full flex items-center justify-center mx-auto mb-6 border border-white/30">
+                <i data-lucide="lock" class="w-12 h-12 text-white"></i>
+            </div>
+            <h2 class="text-4xl font-bold text-white mb-4">هناك المزيد...</h2>
+            <p class="text-xl text-white/90 max-w-3xl mx-auto">ما عرضناه اليوم هو فقط البداية. لدينا خطط واستراتيجيات متقدمة تضمن نجاح شركة Ma Moda بالكامل</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-8 mb-8 relative z-10">
+            <!-- الخطط المتقدمة -->
+            <div class="glass-container p-6 rounded-xl">
+                <h3 class="text-2xl font-semibold text-white mb-6 flex items-center">
+                    <i data-lucide="crown" class="w-7 h-7 text-yellow-300 mr-3"></i>
+                    الخطط المتقدمة
+                </h3>
+                
+                <div class="space-y-4">
+                    <div class="teaser-item p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i data-lucide="brain" class="w-5 h-5 text-cyan-300 mr-3"></i>
+                            <h4 class="font-semibold text-white">استراتيجيات الذكاء الاصطناعي</h4>
+                        </div>
+                        <p class="text-white/80 text-sm blur-text">تقنيات متطورة لتحليل سلوك العملاء وتحسين...</p>
+                    </div>
+                    
+                    <div class="teaser-item p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-green-300 mr-3"></i>
+                            <h4 class="font-semibold text-white">نظام التسويق التلقائي</h4>
+                        </div>
+                        <p class="text-white/80 text-sm blur-text">أتمتة كاملة للحملات وزيادة المبيعات بنسبة...</p>
+                    </div>
+                    
+                    <div class="teaser-item p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i data-lucide="globe-2" class="w-5 h-5 text-purple-300 mr-3"></i>
+                            <h4 class="font-semibold text-white">التوسع العالمي المتسارع</h4>
+                        </div>
+                        <p class="text-white/80 text-sm blur-text">استراتيجية سرية لدخول 15 سوق في...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- الخطوات السرية -->
+            <div class="glass-container p-6 rounded-xl">
+                <h3 class="text-2xl font-semibold text-white mb-6 flex items-center">
+                    <i data-lucide="eye-off" class="w-7 h-7 text-red-300 mr-3"></i>
+                    خطوات سرية للنجاح
+                </h3>
+                
+                <div class="space-y-4">
+                    <div class="teaser-item p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i data-lucide="zap" class="w-5 h-5 text-yellow-300 mr-3"></i>
+                            <h4 class="font-semibold text-white">تقنية الـ Viral Marketing</h4>
+                        </div>
+                        <p class="text-white/80 text-sm blur-text">طريقة مخفية لجعل المحتوى ينتشر بسرعة...</p>
+                    </div>
+                    
+                    <div class="teaser-item p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i data-lucide="users-2" class="w-5 h-5 text-blue-300 mr-3"></i>
+                            <h4 class="font-semibold text-white">شبكة المؤثرين المخفية</h4>
+                        </div>
+                        <p class="text-white/80 text-sm blur-text">شراكات مع مؤثرين من الدرجة الأولى...</p>
+                    </div>
+                    
+                    <div class="teaser-item p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i data-lucide="target" class="w-5 h-5 text-green-300 mr-3"></i>
+                            <h4 class="font-semibold text-white">خوارزمية النجاح المضمون</h4>
+                        </div>
+                        <p class="text-white/80 text-sm blur-text">نظام حصري يضمن تحقيق عائد استثمار...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- دعوة للعمل -->
+        <div class="glass-container p-8 rounded-xl text-center relative z-10">
+            <div class="w-20 h-20 bg-white/20 backdrop-filter backdrop-blur-lg rounded-full flex items-center justify-center mx-auto mb-6 border border-white/30">
+                <i data-lucide="handshake" class="w-10 h-10 text-white"></i>
+            </div>
+            
+            <h3 class="text-3xl font-bold text-white mb-4">هل تريد الكشف عن الاستراتيجية الكاملة؟</h3>
+            <p class="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
+                ما رأيته اليوم هو فقط الأساسيات. لدينا خطة شاملة تضمن نجاح Ma Moda على المستوى العالمي مع استراتيجيات متقدمة لم نكشف عنها بعد
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-8">
+                <div class="teaser-item p-4 rounded-lg text-center">
+                    <div class="text-2xl font-bold text-cyan-300 mb-1">20+</div>
+                    <div class="text-sm text-white/80">استراتيجية إضافية</div>
+                </div>
+                <div class="teaser-item p-4 rounded-lg text-center">
+                    <div class="text-2xl font-bold text-yellow-300 mb-1">500%</div>
+                    <div class="text-sm text-white/80">زيادة متوقعة في المبيعات</div>
+                </div>
+                <div class="teaser-item p-4 rounded-lg text-center">
+                    <div class="text-2xl font-bold text-green-300 mb-1">90</div>
+                    <div class="text-sm text-white/80">يوم للوصول للهدف</div>
+                </div>
+            </div>
+            
+            <div class="bg-white/10 backdrop-filter backdrop-blur-lg p-6 rounded-xl border border-white/20">
+                <h4 class="text-xl font-semibold text-white mb-3 flex items-center justify-center">
+                    <i data-lucide="star" class="w-6 h-6 text-yellow-300 mr-3"></i>
+                    اعمل معنا لتحصل على:
+                </h4>
+                <div class="grid md:grid-cols-2 gap-4 text-left">
+                    <div>
+                        <p class="text-white/90 text-sm mb-2">✨ الاستراتيجية الكاملة غير المحدودة</p>
+                        <p class="text-white/90 text-sm mb-2">🎯 خطة التوسع السرية للأسواق الأوروبية</p>
+                        <p class="text-white/90 text-sm">🚀 تقنيات النمو المتسارع الحصرية</p>
+                    </div>
+                    <div>
+                        <p class="text-white/90 text-sm mb-2">💎 نظام إدارة العملاء المتطور</p>
+                        <p class="text-white/90 text-sm mb-2">🔥 استراتيجيات الفيديو الفائزة</p>
+                        <p class="text-white/90 text-sm">⚡ خطط الأتمتة الكاملة</p>
+                    </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-gradient-to-r from-yellow-400/20 to-orange-400/20 rounded-lg border border-yellow-400/30">
+                    <p class="text-white font-semibold text-center">
+                        <i data-lucide="shield-check" class="w-5 h-5 text-yellow-300 mr-2 inline"></i>
+                        هذه الخطط المتقدمة متاحة فقط لعملائنا المميزين
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <script>
+        // Dark mode detection
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Presentation logic
+        let currentSlide = 1;
+        const totalSlides = 11;
+
+        function updateProgress() {
+            const progress = (currentSlide / totalSlides) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+            document.getElementById('slideCounter').textContent = `${currentSlide} / ${totalSlides}`;
+        }
+
+        function showSlide(slideNumber) {
+            // Hide all slides
+            document.querySelectorAll('.slide').forEach(slide => {
+                slide.classList.add('hidden');
+                slide.classList.remove('slide-active');
+            });
+            
+            // Show current slide
+            const targetSlide = document.getElementById(`slide-${slideNumber}`);
+            if (targetSlide) {
+                targetSlide.classList.remove('hidden');
+                targetSlide.classList.add('slide-active');
+            }
+            
+            updateProgress();
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 1) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        }
+
+        // Event listeners
+        document.getElementById('nextBtn').addEventListener('click', nextSlide);
+        document.getElementById('prevBtn').addEventListener('click', prevSlide);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                prevSlide();
+            }
+        });
+
+        // Touch/swipe support
+        let startX = 0;
+        let endX = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            startX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            endX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (startX - endX > 50) {
+                nextSlide(); // Swipe left (next slide)
+            } else if (endX - startX > 50) {
+                prevSlide(); // Swipe right (previous slide)
+            }
+        }
+
+        // Initialize
+        updateProgress();
+    </script>
+
+
+</body></html>
